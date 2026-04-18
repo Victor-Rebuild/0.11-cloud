@@ -39,3 +39,12 @@ export WEB_PORT="3030"
     RewriteCond %{REQUEST_METHOD} OPTIONS
     RewriteRule ^(.*)$ $1 [R=200,L]
 </VirtualHost>
+```
+
+# vosk api
+## downloads and extracts into a folder named `vosk` inside the repo root
+https://github.com/alphacep/vosk-api/releases/download/v0.3.45/vosk-linux-x86_64-0.3.45.zip
+
+# vosk model
+## extracts into a folder called `model` inside the repo root
+https://alphacephei.com/vosk/models
