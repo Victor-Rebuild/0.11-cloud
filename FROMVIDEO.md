@@ -11,6 +11,7 @@ export WEB_PORT="3030"
 
 # chipper-011.conf
 ## Goes in `/etc/apache2/sites-available/`, replace ServerName and certfiles with the actual paths
+```
 <VirtualHost *:443>
     ServerName oldvchipper-011.anki2.ca
     ServerAdmin webmaster@localhost
